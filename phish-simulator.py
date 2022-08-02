@@ -28,7 +28,7 @@ def main():
         print(Fore.RED + "[-] Connection failed" + Style.RESET_ALL)
         sys.exit()
 
-    extensions = ['.exe', '.ps1', '.sh']
+    extensions = ['.exe', '.bat', '.sh'] # Edit if necessary
     attachments_dir = 'attachments'
 
     while True:
